@@ -31,6 +31,10 @@ namespace Projeto_Primeiro
             {
                 Console.WriteLine($"Você tem {Idade} ano de idade");
             }
+            else if (Idade == 0)
+            {
+                Console.WriteLine($"Você não tem idade suficiente para escrever aqui");
+            }
             else
             {
                 Console.WriteLine($"Você tem {Idade} anos de idade");
