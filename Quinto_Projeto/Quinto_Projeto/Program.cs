@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Quinto_Projeto
+namespace Projeto_Quinto
 {
     internal class Program
     {
@@ -228,8 +228,8 @@ namespace Quinto_Projeto
 
                 if (opcao == "c")
                 {
-                    if(CadastraUsuario(ref ListaDeUsuarios) == Resultado_e.Sucesso);
-                    GravaDados(caminhoArquivo, ListaDeUsuarios);
+                    if (CadastraUsuario(ref ListaDeUsuarios) == Resultado_e.Sucesso) ;
+                        GravaDados(caminhoArquivo, ListaDeUsuarios);
                 }
                 else if (opcao == "s")
                 {
